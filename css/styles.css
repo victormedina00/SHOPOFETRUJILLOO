@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* BARRA DE NAVEGACIÓN ---------------------------------------------------- */
+
+.anclaLogo {
+    position: absolute;
+    padding: 15px 20px;
+}
+
+.imgLogo {
+    height: 70px;
+}
+
+nav {
+    background-color: hotpink;
+    height: 90px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+}
+
+nav ul li a {
+    color: purple;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-size: 20px;
+    background: black;
+    color: azure;
+    transition: 0.5s;
+}
+
+nav ul li img {
+    height: 25px;
+    padding-top: 10px;
+}
+
+/* MAIN ---------------------------------------------------- */
+
+h1 {
+    text-align: center;
+    color: fuchsia;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px papayawhip;
+}
+
+.imgTitular {
+    display: block;
+    width: 3%;
+    margin: auto;
+}
+
+p {
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p::first-letter {
+    color: coral;
+}
+
+.flexNivel2 {
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:20px;
+}
+
+.flexNivel2 div p {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.flexNivel3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:black;
+}
+
+.flexNivel3 div {    
+    margin: 10px;
+    padding: 20px;
+    height: 430px;
+    color:blueviolet;
+}
+
+.flexNivel3 div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:beige;
+    font-weight: bold;
+    text-align:center;
+}
+
+.imgEstatico {
+    width: 300px;
+}
+
+.imgPreview {
+    width: 300px;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: solid;
+    height:300px ;
+}
+
+.imgPreview:hover {
+    width: 320px;
+    transition: 0.6s;
+    cursor: pointer;
+    border-width: 8px;
+    border-radius: 5px;
+    border-color: yellow;
+}
+
+.flexNive20 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:hotpink;
+    border:black
+}
+.flexNive20 div {    
+    margin: 10px;
+    padding: 20px;
+    height: 430px;
+    color:blueviolet;
+}
+
+.flexNive20 div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-weight: bold;
+    text-align:center;
+}
+.flexNive21 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgba(97, 3, 25, 0.825);
+    border:black
+}
+.flexNive21 div {    
+    margin: 10px;
+    padding: 20px;
+    height: 430px;
+    color:blueviolet;
+}
+
+.flexNive21 div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-weight: bold;
+    text-align:center;
+}
+
+.flexNive22 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgba(104, 2, 113, 0.825);
+    border:black
+}
+.flexNive22 div {    
+    margin: 10px;
+    padding: 20px;
+    height: 430px;
+    color:blueviolet;
+}
+
+.flexNive22 div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-weight: bold;
+    text-align:center;
+}
+
+/* FOOTER ---------------------------------------------------- */
+
+.redSocial {
+    margin-top: 10px;
+    display: inline-block;
+    height: 40px;
+}
+
+.redSocial:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: transparent;
+}
+
+#redesSociales {
+    text-align: center;
+}
+
+#redesSociales a:link {
+    text-decoration: none;
+}
+.produc-uno{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    align-items: center;
+}
+.produc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-image{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.imgTitular1 {
+    display:flexbox;
+    width: 3%;
+    margin:auto;
+}
